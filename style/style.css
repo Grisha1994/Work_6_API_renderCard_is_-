@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.users{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    max-width: 900px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.card{
+    padding: 10px;
+    border: 2px solid rgb(200, 191, 175);
+    border-radius: 15px;
+    text-align: center;
+    
+}
